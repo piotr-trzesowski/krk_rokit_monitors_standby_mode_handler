@@ -7,3 +7,10 @@ To bundle it please run:
 ```
 pyinstaller --onefile --windowed KRKMonitorStandbyModeHandler.py
 ```
+
+to generate iconsets for your app run:
+
+```
+iconutil -c icns AppIcon.iconset
+```
+
