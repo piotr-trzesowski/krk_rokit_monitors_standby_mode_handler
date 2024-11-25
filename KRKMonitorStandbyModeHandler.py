@@ -15,7 +15,7 @@ class KRKMonitorStandbyModeHandler:
         sd.play(sine_wave, samplerate=sample_rate)
         sd.wait()  # Wait until the sound is done playing
 
-    def keep_monitors_active(self, interval_minutes=25):
+    def keep_monitors_active(self, interval_minutes=10):
         """
         Periodically play a low-frequency sound to keep KRK monitors active.
         """
