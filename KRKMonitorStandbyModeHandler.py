@@ -6,7 +6,7 @@ import time
 class KRKMonitorStandbyModeHandler:
 
     @staticmethod
-    def generate_and_play_wave(frequency=20, duration=5, amplitude=0.01, sample_rate=44100):
+    def generate_and_play_wave(frequency=60, duration=5, amplitude=0.05, sample_rate=44100):
         """
         Generate a low-frequency sine wave and play it.
         """
