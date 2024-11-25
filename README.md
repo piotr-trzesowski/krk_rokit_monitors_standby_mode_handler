@@ -5,7 +5,7 @@ Use the script to feel free to listen for as long as you want at a low volume d-
 
 To bundle it please run:
 ```
-pyinstaller --onefile --windowed KRKMonitorStandbyModeHandler.py
+pyinstaller --onefile --windowed --icon=mac_iconset/AppIcon.icns KRKMonitorStandbyModeHandler.py
 ```
 
 to generate iconsets for your app run:
